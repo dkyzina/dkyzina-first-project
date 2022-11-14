@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашка по JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+    <header class="header center">
+        <h1 class="title__top" >Добро пожаловать <br>на мой сайт !</h1>
+        <p class="description">Вам предстоит пройти несколько увлекательных <br>игр. Если готов нажимай <span class="description_bold">поехали</span> и <span class="description_bold">приступай</span>
+        </p>
+        <button class="button">Поехали!</button>
+    </header>
+    <div class="games center">
+        <a class="games__img1 games__link" href="#">Игра 1</a>
+        <a class="games__img2 games__link" href="#">Игра 2</a>
+        <a class="games__img3 games__link" href="#">Игра 3</a>
+    </div>
+    <div class="game1 center">
+        <div class="game1__box">
+            <h1 class="game1__title">Времена года</h1>
+            <p class="game1__description">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+            <button class="button" onclick="gameOne();">Играть!</button>
+        </div>
+        <div class="game1__img">
+        </div>
+    </div>
+    <div class="game2 center">
+        <div class="game1__box">
+            <h1 class="game1__title">Запомни слова</h1>
+            <p class="game1__description">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+            <button class="button" onclick="gameTwo();">Играть!</button>
+        </div>
+        <div class="game2__img">
+        </div>
+    </div>
+    <div class="game3 center">
+        <h1 class="game1__title">Игра в загадки</h1>
+        <p class="game3__description">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+        <button class="button" onclick="gameThree();">Играть!</button>
+    </div>
+    <footer class="footer">
+        <p class="footer__text">Все права защищены</p>
+    </footer>
+    <script src="./landing.js"></script>
+</body>
+</html>

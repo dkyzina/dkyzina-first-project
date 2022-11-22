@@ -1,0 +1,393 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  padding-right: calc(50% - 600px);
+  padding-left: calc(50% - 600px);
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #000915;
+}
+
+.header {
+  height: 1024px;
+  background-image: url("./img/header_back.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title__top {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 78px;
+  color: #FFFFFF;
+  padding-top: 217px;
+  padding-bottom: 32px;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  padding-bottom: 44px;
+}
+
+.description_bold {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.button {
+  width: 234.06px;
+  height: 48.6px;
+  border: none;
+  background: #9C0332;
+  border-radius: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.button:hover {
+  background: #EB443F;
+}
+
+.games {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 32px;
+}
+
+.games__link {
+  padding-top: 236px;
+  padding-right: 262px;
+  padding-left: 32px;
+  padding-bottom: 32px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.games__link:hover {
+  -webkit-box-shadow: 0px 0px 0px 3px #44D2FF;
+          box-shadow: 0px 0px 0px 3px #44D2FF;
+}
+
+.games__img1 {
+  background-image: url("./img/game1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.games__img2 {
+  background-image: url("./img/game2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.games__img3 {
+  background-image: url("./img/game3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.game1 {
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.game1__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+
+.game1__description {
+  width: 584px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.game1__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  gap: 32px;
+}
+
+.game1__img {
+  width: 485px;
+  height: 333px;
+  background-image: url("./img/game1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.game2 {
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.game2__img {
+  width: 485px;
+  height: 333px;
+  background-image: url("./img/game2.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.game3 {
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
+  background-image: url("./img/game3_back.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.game3__description {
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.footer {
+  height: 80px;
+  border-top: 1px solid rgba(184, 212, 255, 0.2);
+}
+
+.footer__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 32px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    background-image: url("./img/mob_back.jpg");
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .title__top {
+    font-size: 32px;
+    line-height: 39px;
+    padding-top: 238px;
+    text-align: center;
+  }
+  .description {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    padding-bottom: 32px;
+  }
+  .description_bold {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .games {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .games__link {
+    padding-right: 244px;
+    padding-left: 14px;
+  }
+  .game1 {
+    height: 654px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .game1__title {
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+  }
+  .game1__description {
+    width: 343px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  .game1__box {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .game1__img {
+    width: 344px;
+    height: 236px;
+    background-image: url("./img/game_1_mob.svg");
+  }
+  .game2 {
+    height: 654px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .game2__img {
+    width: 344px;
+    height: 236px;
+    background-image: url("./img/game_2_mob.svg");
+  }
+  .game3 {
+    height: 788px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .game3__description {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .header {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .games {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .game1 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .game1__box {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .game1__description {
+    text-align: center;
+  }
+  .game2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=landing.css.map */
